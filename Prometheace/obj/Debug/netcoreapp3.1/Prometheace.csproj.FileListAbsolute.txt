@@ -1,0 +1,11 @@
+C:\My Project\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.exe
+C:\My Project\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.deps.json
+C:\My Project\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.runtimeconfig.json
+C:\My Project\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.runtimeconfig.dev.json
+C:\My Project\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.dll
+C:\My Project\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.pdb
+C:\My Project\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.csprojAssemblyReference.cache
+C:\My Project\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.AssemblyInfoInputs.cache
+C:\My Project\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.AssemblyInfo.cs
+C:\My Project\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.dll
+C:\My Project\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.pdb
