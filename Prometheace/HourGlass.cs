@@ -57,25 +57,32 @@ namespace Prometheace
 
     public int SumMaxHourGlass(int[][] matrix)
     {
-      int result = -63;
-      int row = 0;
-      int left = 0;
+      int result = 0;
+      int sumMaxHourGlass = -63;
+      int row    = 0;
+      int left   = 0;
 
-      for(left = 0 ; left <= 3 ; left++)
+      // - Validation
+      if (ValidMatrix(matrix))
       {
-        for(row = 0 ; row <= 3 ; row++)
+        for (left = 0; left <= 3; left++)
         {
-          int glass = 0;
-
-          glass += matrix[row][left] + matrix[row][left + 1] + matrix[row][left + 2];
-          glass += matrix[row + 1][left + 1];
-          glass += matrix[row + 2][left] + matrix[row + 2][left + 1] + matrix[row + 2][left + 2];
-
-          if(glass > result)
+          for (row = 0; row <= 3; row++)
           {
-            result = glass;
+            int glass = 0;
+
+            glass += matrix[row][left] + matrix[row][left + 1] + matrix[row][left             + 2];
+            glass += matrix[row                                                               + 1][left + 1];
+            glass += matrix[row + 2][left] + matrix[row + 2][left + 1] + matrix[row + 2][left + 2];
+
+            if (glass > sumMaxHourGlass)
+            {
+              sumMaxHourGlass = glass;
+            }
           }
         }
+
+        result = sumMaxHourGlass;
       }
 
       return result;
@@ -90,6 +97,45 @@ namespace Prometheace
       var random = new Random();
 
       return random.Next(50);
+    }
+
+    private bool ValidMatrix(int[][] matrix)
+    {
+      if (matrix.Length < 3)
+      {
+        Console.WriteLine("Matrix have less than 3 rows...");
+        return false;
+      }
+
+      if (matrix.Length % 3 != 0)
+      {
+        Console.WriteLine("Number of rows in Matrix are not divisible by 3...");
+        return false;
+      }
+
+      foreach (var row in matrix)
+      {
+        if(row.Length < 3)
+        {
+          Console.WriteLine("Matrix has one row with less than 3 columns...");
+          return false;
+        }
+
+        if (row.Length % 3 != 0)
+        {
+          Console.WriteLine("Matrix has one row that is not divisible by 3...");
+          return false;
+        }
+
+        if (row.Length != matrix.Length)
+        {
+          Console.WriteLine("Matrix has one row that is not the same length as the res of the Matrix...");
+          return false;;
+        }
+      }
+
+      // - Zero error point
+      return true;
     }
 
     #endregion

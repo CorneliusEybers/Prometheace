@@ -112,5 +112,38 @@ namespace Prometheace.Tests
       // - Then
       Assert.AreEqual(35,sumMaxHourGlass);
     }
+
+    [TestMethod]
+    public void SumMaxHourGlass_EmptyMatrix()
+    {
+      // - Setup
+      var resources = new Resources();
+
+      // - Given
+      var matrix = new int[0][];
+
+      // - When
+      var result = resources.HourGlass.SumMaxHourGlass(matrix);
+
+      // - Then
+      Assert.AreEqual(0,result);
+    }
+
+    [TestMethod]
+    public void SumMaxHourGlass_SkewedMatrix()
+    {
+      // - Setup
+      var resources = new Resources();
+
+      // - Given
+      var matrix = GenerateMatrixSkewed(3,4);
+
+      // - When
+      var result = resources.HourGlass.SumMaxHourGlass(matrix);
+
+      // - Then
+      Assert.AreEqual(0,result);
+    }
+
   }
 }
