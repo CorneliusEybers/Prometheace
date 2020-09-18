@@ -55,6 +55,23 @@ namespace Prometheace.Tests
         return matrix;
       }
 
+      public int[][] CreateMatrixSkewed(int depthRow, int depthCol)
+      {
+        int[][] matrix = new int[depthRow][];
+
+        for (int indexRow = 0; indexRow < depthRow; indexRow++)
+        {
+          matrix[indexRow] = new int[depthCol];
+
+          for (int indexCol = 0; indexCol < depthCol; indexCol++)
+          {
+            matrix[indexRow][indexCol] = indexCol;
+          }
+        }
+
+        return matrix;
+      }
+
       #endregion
     }
 
@@ -136,13 +153,25 @@ namespace Prometheace.Tests
       var resources = new Resources();
 
       // - Given
-      var matrix = GenerateMatrixSkewed(3,4);
-
+      var matrixShortRow = resources.CreateMatrixSkewed(2, 6);
+      var matrixShortCol = resources.CreateMatrixSkewed(6, 2);
+      var matrixLopSidedRow = resources.CreateMatrixSkewed(8, 9);
+      var matrixLopSidedCol = resources.CreateMatrixSkewed(9, 8);
+      var matrixSkew = resources.CreateMatrixSkewed(3,6);
+      
       // - When
-      var result = resources.HourGlass.SumMaxHourGlass(matrix);
+      var resultShortRow = resources.HourGlass.SumMaxHourGlass(matrixShortRow);
+      var resultShortCol = resources.HourGlass.SumMaxHourGlass(matrixShortCol);
+      var resultLopSidedRow = resources.HourGlass.SumMaxHourGlass(matrixLopSidedRow);
+      var resultLopSidedCol = resources.HourGlass.SumMaxHourGlass(matrixLopSidedCol);
+      var resultSkew = resources.HourGlass.SumMaxHourGlass(matrixSkew);
 
       // - Then
-      Assert.AreEqual(0,result);
+      Assert.AreEqual(0,resultShortRow);
+      Assert.AreEqual(0,resultShortCol);
+      Assert.AreEqual(0,resultLopSidedRow);
+      Assert.AreEqual(0,resultLopSidedCol);
+      Assert.AreEqual(0,resultSkew);
     }
 
   }
