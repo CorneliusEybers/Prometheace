@@ -9,3 +9,16 @@ C:\My Project\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.Assemb
 C:\My Project\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.AssemblyInfo.cs
 C:\My Project\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.dll
 C:\My Project\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.pdb
+C:\My Projects\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.exe
+C:\My Projects\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.deps.json
+C:\My Projects\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.runtimeconfig.json
+C:\My Projects\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.runtimeconfig.dev.json
+C:\My Projects\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.dll
+C:\My Projects\Prometheace\Prometheace\bin\Debug\netcoreapp3.1\Prometheace.pdb
+C:\My Projects\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.AssemblyInfoInputs.cache
+C:\My Projects\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.AssemblyInfo.cs
+C:\My Projects\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.csproj.CoreCompileInputs.cache
+C:\My Projects\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.dll
+C:\My Projects\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.pdb
+C:\My Projects\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.genruntimeconfig.cache
+C:\My Projects\Prometheace\Prometheace\obj\Debug\netcoreapp3.1\Prometheace.csprojAssemblyReference.cache

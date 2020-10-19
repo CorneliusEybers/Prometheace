@@ -19,6 +19,7 @@ namespace Prometheace
     {
       Console.WriteLine("Rotating Array:");
       Console.WriteLine("===============");
+      Console.WriteLine("");
 
       var rotatingArray = new RotatingArray();
       int[] arrayToSpin = new int[] {1, 2, 3, 4, 5};
@@ -33,8 +34,17 @@ namespace Prometheace
 
       var arraySpunLeft = rotatingArray.RotateArrayLeft(arrayToSpin, timesToSpin);
       string arraySpunLeftString = rotatingArray.ArrayToString(arraySpunLeft);
-      Console.WriteLine("Array Rotated Left : " + arraySpunLeftString); 
+      Console.WriteLine("Array Rotated Left : " + arraySpunLeftString);
 
+      var arraySpunLeftFast = rotatingArray.RotateArrayLeftFast(arrayToSpin, timesToSpin);
+      string arraySpunLeftFastString = rotatingArray.ArrayToString(arraySpunLeftFast);
+      Console.WriteLine("Array Rotated Left Fast: " + arraySpunLeftFastString);
+
+      var arraySpunLeftRapid = rotatingArray.RotateArrayLeftRapid(arrayToSpin, timesToSpin);
+      string arraySpunLeftRapidString = rotatingArray.ArrayToString(arraySpunLeftRapid);
+      Console.WriteLine("Array Rotated Left Rapidly: " + arraySpunLeftRapidString);
+
+      Console.WriteLine("");
       Console.WriteLine("===END=========");
     }
 
