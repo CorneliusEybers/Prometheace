@@ -13,6 +13,20 @@ namespace Prometheace
       ProcessHourGlass();
 
       ProcessRotatingArray();
+
+      ProcessJumpTheQueue();
+    }
+
+    private static void ProcessJumpTheQueue()
+    {
+      Console.WriteLine("Jumping the Queue:");
+      Console.WriteLine("==================");
+      Console.WriteLine("");
+
+      var jumpTheQueue = new JumpTheQueue();
+
+      Console.WriteLine("");
+      Console.WriteLine("===END=========");
     }
 
     private static void ProcessRotatingArray()
