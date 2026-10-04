@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\MyRepos\\Prometheace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C63837C2-59A8-44AE-B265-DAE9D2706BE1}|Prometheace.Tests\\Prometheace.Tests.csproj|c:\\myrepos\\prometheace\\prometheace.tests\\jumpthequeuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C63837C2-59A8-44AE-B265-DAE9D2706BE1}|Prometheace.Tests\\Prometheace.Tests.csproj|solutionrelative:prometheace.tests\\jumpthequeuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D34B631-E29D-48DD-9AE5-40DEBFD6FDF0}|Prometheace\\Prometheace.csproj|c:\\myrepos\\prometheace\\prometheace\\jumpthequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D34B631-E29D-48DD-9AE5-40DEBFD6FDF0}|Prometheace\\Prometheace.csproj|solutionrelative:prometheace\\jumpthequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1725,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JumpTheQueueTests.cs",
+              "DocumentMoniker": "C:\\MyRepos\\Prometheace\\Prometheace.Tests\\JumpTheQueueTests.cs",
+              "RelativeDocumentMoniker": "Prometheace.Tests\\JumpTheQueueTests.cs",
+              "ToolTip": "C:\\MyRepos\\Prometheace\\Prometheace.Tests\\JumpTheQueueTests.cs",
+              "RelativeToolTip": "Prometheace.Tests\\JumpTheQueueTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T05:21:46.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JumpTheQueue.cs",
+              "DocumentMoniker": "C:\\MyRepos\\Prometheace\\Prometheace\\JumpTheQueue.cs",
+              "RelativeDocumentMoniker": "Prometheace\\JumpTheQueue.cs",
+              "ToolTip": "C:\\MyRepos\\Prometheace\\Prometheace\\JumpTheQueue.cs",
+              "RelativeToolTip": "Prometheace\\JumpTheQueue.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAASwA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-04T05:21:08.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

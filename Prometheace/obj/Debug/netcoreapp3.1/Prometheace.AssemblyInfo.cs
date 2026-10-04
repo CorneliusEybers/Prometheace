@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prometheace")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19a7f36ed1d7ffbfd9387353320323fbe887ca5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prometheace")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prometheace")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

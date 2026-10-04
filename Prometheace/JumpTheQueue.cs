@@ -11,7 +11,7 @@ namespace Prometheace
 
     public int MinimumJumps(int[] queue)
     {
-      ;
+      return 1;
     }
 
     #endregion

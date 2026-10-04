@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "G1FNXKdwwC1+9QyvEojUmZjuits3mcyRNxna/reGYa9LH8BRVVU7bKz44RXMjnz4LuTcqIZjCgr8JqdOjvdV5Q==",
+  "dgSpecHash": "0w+lM9wvbmA=",
   "success": true,
-  "projectFilePath": "C:\\My Projects\\Prometheace\\Prometheace\\Prometheace.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\MyRepos\\Prometheace\\Prometheace\\Prometheace.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\corne\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\corne\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\corne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\corne\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
